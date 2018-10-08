@@ -1,0 +1,130 @@
+*, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.navigator{
+  height:6vh;
+  position: fixed;
+  display: flex;
+  justify-content: flex-end;
+  width:100%;
+  background-color: rgba(0, 0, 0, 0.1);
+box-shadow: 0px 9px 5px 0px rgba(0,0,0,0.33);
+}
+
+
+ul{
+  list-style: none;
+  display: inline-flex;
+  align-content: center;
+
+}
+
+.nav-section {
+  padding:8px 15px 0px 15px;
+  font-size: 17px;
+  text-align: center;
+
+}
+
+.nav-section:hover {
+
+  background-color: #f7df1e;
+}
+
+
+
+
+
+header {
+  background-image: url("mountains.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.name {
+  padding-bottom: 2vh;
+  font-size: 70px;
+  color:black;
+}
+
+.header-content{
+  padding-top: 39vh;
+  text-align: center;
+}
+
+.text-write{
+  background-color: rgba(0, 0, 0, 0.4);
+  display: inline-flex;
+  padding: 3px;
+  color: white;
+  font-size: 30px;
+
+}
+
+.carriage {
+  animation:blink 0.7s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50%{
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.about-me{
+  display:inline-flex;
+  align-items: center;
+  box-shadow: 0px -4px 5px 0px rgba(0,0,0,0.33);
+}
+.photo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:40vw;
+  height:40vh;
+}
+
+.img-photo {
+  height: 20vh;
+  transition: all .2s ease-in-out;
+}
+
+.img-photo:hover {
+  transform: scale(1.1);
+}
+
+.photo-desc{
+  padding-top: 5vh;
+  font-size:15px;
+}
+.about-me-desc{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10vh 5vw 10vh 10vw;
+  text-align:center;
+}
+
+.h1-about-me {
+  font-size:30px;
+  padding-bottom: 5vh;
+}
+
+.about-me-info{
+  font-size: 20px;
+}
